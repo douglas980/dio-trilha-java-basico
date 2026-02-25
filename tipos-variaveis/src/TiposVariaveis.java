@@ -1,3 +1,5 @@
+import java.time.LocalDateTime;
+
 public class TiposVariaveis {
     public static void main(String[] args) throws Exception {
         byte idade = 25;
@@ -8,6 +10,7 @@ public class TiposVariaveis {
         char inicial = 'J';
         boolean ativo = true;
         String nome = "Douglas";
+        LocalDateTime dataAtual = LocalDateTime.now();
 
         System.out.println("Idade: " + idade);
         System.out.println("População: " + populacao);
@@ -17,6 +20,7 @@ public class TiposVariaveis {
         System.out.println("Inicial: " + inicial);
         System.out.println("Ativo: " + ativo);
         System.out.println("Nome: " + nome);
+        System.out.println("Data Atual: " + dataAtual);
 
     }
 }
