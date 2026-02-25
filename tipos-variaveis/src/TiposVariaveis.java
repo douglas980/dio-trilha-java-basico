@@ -9,5 +9,14 @@ public class TiposVariaveis {
         boolean ativo = true;
         String nome = "Douglas";
 
+        System.out.println("Idade: " + idade);
+        System.out.println("População: " + populacao);
+        System.out.println("População Mundial: " + populacaoMundial);
+        System.out.println("Preço: " + preco);
+        System.out.println("Pi: " + pi);
+        System.out.println("Inicial: " + inicial);
+        System.out.println("Ativo: " + ativo);
+        System.out.println("Nome: " + nome);
+
     }
 }
